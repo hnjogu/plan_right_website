@@ -1,0 +1,141 @@
+.navbar-expand-lg{
+    background-color:#FFFFFF;
+    color:#FFFFFF;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #33aa33;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-toggler {
+    background-color:#6991ac;
+}
+.navbar-custom .icon-bar {
+    background-color:#33aa33;
+}
+
+/*logo. */
+.logo {
+    float: left;
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*footer css . */
+footer {
+    background-color: #6991ac;
+    color:white;
+    position: relative;
+   /* width: 100vw;  */
+/*    left: calc(-50vw + 50%); */
+    /*margin: auto; .*/
+    /*width: auto; .*/
+}
+
+footer .footer-copyright{
+    background-color: #544b59;
+    padding-top:3px;
+    padding-bottom:3px;
+    text-align: center;
+}
+
+footer .footer-copyright p{
+    margin:10px;
+    color: #ccc;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+footer h5{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    width: auto;
+}
+
+footer a{
+    color:#d2d1d1;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:focus{
+    text-decoration: none;
+    color:white;
+}
+
+footer .myCols{
+    text-align: center;
+}
+
+footer .social-networks{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+footer .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+footer .social-networks a:hover{
+    text-decoration: none;
+
+}
+
+footer .facebook:hover{
+    color:#0077e2;
+}
+
+footer .google:hover{
+    color:#ef1a1a;
+}
+
+footer .twitter:hover{
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+    footer {
+        text-align: center;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+footer{
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}

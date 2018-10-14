@@ -14,12 +14,11 @@
     <title>Plan right</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../../vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <!-- <link href="../../vendor/css/main.css" rel="stylesheet"> -->
      <!-- Custom slider  CSS -->
-    <link href="../../vendor/css/slider.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap/css/custom.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap/css/half-slider.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="../../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
